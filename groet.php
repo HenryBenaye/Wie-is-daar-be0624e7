@@ -1,8 +1,11 @@
 
 <?php
- $a = "Hoi Gebruiker";
- $b = "Hallo computer";
+ echo "Hoi Gebruiker". PHP_EOL;
+ $a = readline("");
+ $b = "Gebruiker zegt: $a";
 
- echo $a. PHP_EOL;
- readline("$b");
+ echo $b;
+ 
+
+
 
